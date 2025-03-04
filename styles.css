@@ -104,6 +104,34 @@ body {
     color: #ff5e00;
 }
 
+/* About Section Styling */
+.about-section {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.white-text {
+    color: white;
+}
+
+.logo {
+    width: 100px; /* Adjust the size of the logos */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Ensure the navbar link for About scrolls to the section */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange;
+}
 /* Adjustments for responsiveness */
 @media (max-width: 768px) {
     .carousel-caption h2 {
