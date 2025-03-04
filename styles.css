@@ -1,0 +1,39 @@
+.flix {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.prime {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.nav-text {
+    font-size: 1.5rem;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-text:hover {
+    color: orange !important;
+}
+
+.contact-sales-btn {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-sales-btn:hover {
+    background-color: darkorange;
+    color: white;
+}
+
