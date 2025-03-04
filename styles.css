@@ -140,6 +140,41 @@ body {
     color: orange;
 }
 
+/* About Section Styling */
+.about-section {
+    background-color: black;
+    padding: 80px 0; /* Reduced padding */
+}
+
+.grey-text {
+    color: grey;
+    font-size: 1rem; /* Reduced font size */
+}
+
+.white-text {
+    color: white;
+    font-size: 1.5rem; /* Reduced font size */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logo {
+    width: 60px; /* Reduced logo size */
+    height: auto;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+/* Ensure the navbar link for About scrolls to the section */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange;
+}
+
 /* About Image Styling */
 .about-image {
     width: 100%;
@@ -171,6 +206,45 @@ body {
 .about-section .logo {
     width: 60px; /* Further reduced logo size */
     margin-bottom: 10px; /* Further reduced margin */
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .try-for-free-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* Adjust About section for smaller screens */
+    .about-section {
+        padding: 50px 0; /* Further reduced padding for smaller screens */
+    }
+
+    .about-section h1 {
+        font-size: 1.75rem; /* Further reduced font size for h1 */
+    }
+
+    .about-section h2 {
+        font-size: 1rem; /* Further reduced font size for h2 */
+    }
+
+    .about-section .logo {
+        width: 50px; /* Further reduced logo size for smaller screens */
+    }
+
+    /* Stack the logos vertically on smaller screens */
+    .about-section .col-md-6.text-center {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Add spacing between stacked elements */
+    }
 }
 
 /* Adjustments for responsiveness */
