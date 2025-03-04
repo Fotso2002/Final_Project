@@ -10,7 +10,6 @@
     font-size: 2rem;
 }
 
-
 .nav-text {
     font-size: 1.5rem;
     text-align: center;
@@ -37,3 +36,68 @@
     color: white;
 }
 
+/* Styling for carousel */
+.carousel-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensures the caption is above the image */
+}
+
+.carousel-caption h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.try-for-free-btn {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.try-for-free-btn:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .try-for-free-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
