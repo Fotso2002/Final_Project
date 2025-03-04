@@ -7,6 +7,7 @@ body {
 .navbar {
     height: 70px; /* Adjust this value to match the padding-top */
 }
+
 .flix {
     color: orange;
     font-weight: bold;
@@ -107,21 +108,27 @@ body {
 /* About Section Styling */
 .about-section {
     background-color: black;
-    padding: 100px 0;
+    padding: 80px 0; /* Reduced padding */
 }
 
 .grey-text {
     color: grey;
+    font-size: 1rem; /* Reduced font size */
 }
 
 .white-text {
     color: white;
+    font-size: 1.5rem; /* Reduced font size */
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .logo {
-    width: 100px; /* Adjust the size of the logos */
+    width: 60px; /* Reduced logo size */
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Ensure the navbar link for About scrolls to the section */
@@ -145,6 +152,27 @@ body {
 .text-content {
     padding-right: 20px; /* Add some spacing between text and image */
 }
+
+/* Adjustments for the left-side content */
+.about-section .col-md-6 {
+    padding: 0 15px; /* Add padding to the left column */
+}
+
+.about-section h1 {
+    font-size: 2rem; /* Reduced font size for h1 */
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.about-section h2 {
+    font-size: 1.25rem; /* Reduced font size for h2 */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.about-section .logo {
+    width: 60px; /* Further reduced logo size */
+    margin-bottom: 10px; /* Further reduced margin */
+}
+
 /* Adjustments for responsiveness */
 @media (max-width: 768px) {
     .carousel-caption h2 {
@@ -158,5 +186,22 @@ body {
     .try-for-free-btn {
         font-size: 1rem;
         padding: 10px 20px;
+    }
+
+    /* Adjust About section for smaller screens */
+    .about-section {
+        padding: 50px 0; /* Further reduced padding for smaller screens */
+    }
+
+    .about-section h1 {
+        font-size: 1.75rem; /* Further reduced font size for h1 */
+    }
+
+    .about-section h2 {
+        font-size: 1rem; /* Further reduced font size for h2 */
+    }
+
+    .about-section .logo {
+        width: 50px; /* Further reduced logo size for smaller screens */
     }
 }
