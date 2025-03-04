@@ -40,9 +40,9 @@
 .carousel-caption {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    left: 20px;  /* Move the content towards the left */
+    transform: translateY(-50%);  /* Center vertically */
+    text-align: left;  /* Align text to the left */
     z-index: 10;  /* Ensure the captions appear above the images */
     color: white;
 }
@@ -53,9 +53,10 @@
 }
 
 .carousel-caption h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;  /* Reduce the size */
     font-weight: normal;
     margin-top: 0.5rem;
+    color: gray;  /* Set color to gray */
 }
 
 .try-for-free-btn {
@@ -93,7 +94,6 @@
 .navbar-nav .nav-link:hover {
     color: #ff5e00;
 }
-
 
 /* Adjustments for responsiveness */
 @media (max-width: 768px) {
